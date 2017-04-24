@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #E1EAEC;
+    color: #b5cad0;
+    font-family: arial, sans-serif;
+}
+
+/**** HEADER STYLES ****/
+
+#header {
+    background-color: #084D63;
+    font-size: 36px;
+    height: auto;
+    text-align: center;
+    margin-bottom: 30px;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 1px 1px 7px #084d63;
+}
+
+#header p {
+    margin: 0;
+    padding: 10px 0px 10px 0px;
+}
+
+/**** END HEADER STYLES ****/
+
+/**** CONTROL STYLES ****/
+
+#controls {
+    background-color: #2d687a;
+    padding: 0px 20px 0px 20px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    border-radius: 2px;
+}
+
+#controls a {
+    background-color: #063d51;
+    text-decoration: none;
+    color: #b5cad0;
+    font-weight: bold;
+    padding: 10px 10px 10px 10px;
+    margin: 0px 5px 0px 5px;
+    border-radius: 2px;
+    transition: 0.2s;
+}
+
+#controls a:hover {
+    background-color: #b5cad0;
+    color: #063d51;
+}
+
+#controls .left {
+    float: left;
+}
+
+
+.colorPicker {
+    width: 25px;
+}
+
+#controls div {
+    float: left;
+    padding: 8px 4px 8px 4px;
+    margin: 1px 0px 1px 0px;
+}
+
+/**** END CONTROL STYLES ****/
+
+/**** SKETCHPAD STYLES ****/
+
+#sketchpad {
+    background-color: #ffffff;
+    height: 600px;
+    width: 600px;
+    border: 10px solid #022535;
+    border-radius: 4px;
+    margin: 0 auto;
+}
+
+.gridBlock {
+    float:left;
+}
+
+/**** END SKETCHPAD STYLES ****/
